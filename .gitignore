@@ -1,0 +1,22 @@
+# Build outputs
+bin/
+obj/
+publish/
+*.user
+
+# Rider / VS
+.vs/
+.idea/
+*.suo
+
+# Catálogo gerado localmente durante testes (não deve ir para a branch main)
+apps.json
+apps-featured.json
+apps-regional-br.json
+apps-search-index.json
+metrics-cache.json
+winget-pkgs/
+
+# OS
+.DS_Store
+Thumbs.db
